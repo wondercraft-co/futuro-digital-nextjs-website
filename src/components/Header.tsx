@@ -5,6 +5,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
 import Banner from "./Banner";
 import Link from "next/link";
+import Image from "next/image";
 
 const navigation = [
   { name: "Estudiantes", href: "/" },
@@ -15,7 +16,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="absolute inset-x-0 top-0 z-50 bg-white border-b border-gray-100">
+    <header className="inset-x-0 top-0 z-50 bg-white border-b border-gray-100">
       <Banner />
       <nav
         aria-label="Global"
@@ -24,7 +25,13 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img alt="" src="/logo-futuro-digital.svg" className="h-8 w-auto" />
+            <Image
+              alt=""
+              height={32}
+              width={157}
+              src="/logo-futuro-digital.svg"
+              className="h-8 w-auto"
+            />
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -59,7 +66,7 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
+              <Image
                 alt=""
                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                 className="h-8 w-auto"

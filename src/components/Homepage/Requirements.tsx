@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const requirements = [
   {
     name: "Residencia en Colombia",
@@ -61,7 +63,7 @@ export default function Requirements() {
             </div>
           </div>
           <div className="flex items-start justify-end lg:order-first">
-            <img
+            <Image
               alt="Product screenshot"
               src="/pexels-kevin-ku-92347-577585.jpg"
               width={2432}
