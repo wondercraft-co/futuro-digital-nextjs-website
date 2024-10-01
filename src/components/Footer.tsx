@@ -5,8 +5,9 @@ import Link from "next/link";
 const navigation = {
   students: [
     { name: "Informacion general", href: "/" },
-    { name: "Términos y condiciones", href: "/estudiantes/terminos" },
     { name: "Inscríbete", href: FORM_URLS.STUDENTS },
+    { name: "Términos y condiciones", href: "/estudiantes/terminos" },
+    { name: "Código de Conducta", href: "/estudiantes/codigo-conducta" },
   ],
   business: [
     { name: "Información", href: "/empresas" },
@@ -17,9 +18,7 @@ const navigation = {
     { name: "Por qué?", href: "#" },
     { name: "Quíenes somos", href: "#" },
   ],
-  mentors: [
-    { name: "Quieres ser mentor?", href: "#" },
-  ],
+  mentors: [{ name: "Quieres ser mentor?", href: "#" }],
   social: [
     {
       name: "Facebook",

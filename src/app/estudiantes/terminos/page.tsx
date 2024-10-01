@@ -5,7 +5,7 @@ import { Metadata } from "next/types";
 export const metadata: Metadata = {
   title: "Términos y Condiciones para Estudiantes | Futuro Digital",
   description:
-    "Conozca los términos y condiciones para empresas participantes en el programa Futuro Digital. Obtenga un sitio web gratuito mientras apoya la educación tecnológica.",
+    "Conozca los términos y condiciones para estudiantes participantes en el programa Futuro Digital.",
 };
 
 const terms = [

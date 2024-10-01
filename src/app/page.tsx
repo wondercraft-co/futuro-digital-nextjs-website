@@ -1,3 +1,4 @@
+import FAQ from "@/components/Homepage/FAQ";
 import Features from "@/components/Homepage/Features";
 import Hero from "@/components/Homepage/Hero";
 import Requirements from "@/components/Homepage/Requirements";
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Requirements />
+      <FAQ />
     </MainLayout>
   );
 }
