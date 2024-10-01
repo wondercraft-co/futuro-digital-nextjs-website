@@ -1,30 +1,35 @@
-import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  LockClosedIcon,
-} from "@heroicons/react/20/solid";
+import { CheckBadgeIcon } from "@heroicons/react/20/solid";
 
 const features = [
   {
     name: "Acceso a recursos educativos",
     description:
       "Obtén acceso a una variedad de cursos y materiales didácticos que cubren las áreas más demandadas de la tecnología: desde programación hasta diseño y gestión de proyectos.",
-    href: "#",
-    icon: CloudArrowUpIcon,
+    icon: CheckBadgeIcon,
   },
   {
     name: "Mentoría personalizada",
     description:
       "Recibe el apoyo de mentores experimentados que te guiarán en tu aprendizaje, responderán a tus preguntas y te ayudarán a enfrentar desafíos técnicos.",
-    href: "#",
-    icon: LockClosedIcon,
+    icon: CheckBadgeIcon,
   },
   {
     name: "Proyectos reales",
     description:
       "Trabaja en proyectos con empresas reales y desarrolla un portafolio que demuestre tus habilidades en el mundo laboral.",
-    href: "#",
-    icon: ArrowPathIcon,
+    icon: CheckBadgeIcon,
+  },
+  {
+    name: "No es un bootcamp",
+    description:
+      "No te prometemos la luna, ni ser tu propio jefe. Todo lo que logres sera por tu propio esfuerzo, nosotros estamos para facilitarte el camino, para guiarte en el proceso, para mostrarte como funciona la industria.",
+    icon: CheckBadgeIcon,
+  },
+  {
+    name: "Ayuda para conseguir un computador",
+    description:
+      "Si no tienes un computador adecuado para programar, te ayudamos a conseguir uno. Trabajamos con organizaciones y donantes para proporcionar equipos a estudiantes comprometidos que lo necesiten.",
+    icon: CheckBadgeIcon,
   },
 ];
 

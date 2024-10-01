@@ -25,6 +25,12 @@ export default function CTA() {
               >
                 Inscribete ahora
               </Link>
+              <Link
+                href="/empresas/terminos"
+                className="text-sm font-semibold leading-6 text-white"
+              >
+                Términos & condiciones <span aria-hidden="true">→</span>
+              </Link>
             </div>
           </div>
           <div>
