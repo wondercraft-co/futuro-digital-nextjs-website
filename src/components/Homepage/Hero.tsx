@@ -25,8 +25,9 @@ export default function Hero() {
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
           />
         </div>
-        <div className="mx-auto max-w-3xl py-32 sm:pt-40 sm:pb-44">
-          <ComputerDesktopIcon className="h-12 w-12 text-white mx-auto mb-6" />
+        <div className="mx-auto max-w-3xl py-24 sm:pt-24 sm:pb-44">
+          {/* <ComputerDesktopIcon className="h-12 w-12 text-white mx-auto mb-6" /> */}
+          <div className="text-5xl text-center mb-8">🚀</div>
           {/* <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
               Announcing our next round of funding.{" "}
@@ -40,12 +41,14 @@ export default function Hero() {
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
               Impulsa tu futuro en tecnología, no es un p*to bootcamp!
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-300">
-              Ofrecemos a jóvenes la oportunidad de aprender a programar,
-              trabajar en proyectos reales y acceder a mentores que te guiarán
-              hacia una carrera en tecnología. <br />
-              Que pedimos a cambio? Un compromiso inquebrantable, que no busques
-              excusas, que no nos hagas perder el tiempo.
+            <p className="mt-6 text-lg leading-8 text-gray-100">
+              Brindamos a jóvenes la oportunidad de aprender a programar,
+              diseñar y gestionar proyectos, mientras trabajan en casos reales y
+              reciben el apoyo de mentores experimentados que los guiarán en su
+              camino hacia una carrera exitosa* en tecnología <br />
+              <span className="text-red-400">Que pedimos a cambio?</span> Un
+              compromiso inquebrantable, que no busques excusas, que no nos
+              hagas perder el tiempo.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
