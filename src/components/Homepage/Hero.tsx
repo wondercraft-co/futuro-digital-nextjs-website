@@ -1,6 +1,5 @@
-import Image from "next/image";
 import { FORM_URLS } from "@/lib/const";
-import { ComputerDesktopIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 export default function Hero() {
   return (
