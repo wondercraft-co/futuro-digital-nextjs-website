@@ -31,6 +31,12 @@ const features = [
       "Si no tienes un computador adecuado para programar, te ayudamos a conseguir uno. Trabajamos con organizaciones y donantes para proporcionar equipos a estudiantes comprometidos que lo necesiten.",
     icon: CheckBadgeIcon,
   },
+  {
+    name: "No es un p*to bootcamp",
+    description:
+      "Sin promesas vacías, sin falsas expectativas, sin atajos - todo lo que logres depende de ti. Nosotros somos facilitadores.",
+    icon: CheckBadgeIcon,
+  },
 ];
 
 export default function Features() {
