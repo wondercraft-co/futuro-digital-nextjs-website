@@ -1,5 +1,30 @@
 import MainLayout from "@/components/MainLayout";
-import { CheckCircleIcon } from "@heroicons/react/20/solid";
+
+import { Metadata } from "next/types";
+
+export const metadata: Metadata = {
+  title: "Términos y Condiciones para Empresas | Futuro Digital",
+  description: "Conozca los términos y condiciones para empresas participantes en el programa Futuro Digital. Obtenga un sitio web gratuito mientras apoya la educación tecnológica.",
+  openGraph: {
+    title: "Términos y Condiciones para Empresas | Futuro Digital",
+    description: "Conozca los términos y condiciones para empresas participantes en Futuro Digital",
+    images: [
+      {
+        url: "/images/og-image-terminos-empresas.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Términos y Condiciones de Futuro Digital para Empresas",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Términos y Condiciones para Empresas | Futuro Digital",
+    description: "Conozca los términos y condiciones para empresas participantes en Futuro Digital",
+    images: ["/images/og-image-terminos-empresas.jpg"],
+  },
+};
+
 
 const terms = [
   {
