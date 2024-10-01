@@ -9,7 +9,7 @@ export default function CTA() {
         <div className="mx-auto max-w-7xl text-center grid md:grid-cols-2 gap-20">
           <div className="flex flex-col justify-center">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Listo para empezar?
+              ¿Listo para empezar?
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-indigo-100">
               Únete a nosotros y deja que nuestros estudiantes creen el sitio

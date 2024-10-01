@@ -30,7 +30,7 @@ export default function Hero() {
               href="#como"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
-              Como funciona <span aria-hidden="true">→</span>
+              Cómo funciona <span aria-hidden="true">→</span>
             </Link>
           </div>
         </div>

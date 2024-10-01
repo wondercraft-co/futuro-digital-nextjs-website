@@ -19,7 +19,7 @@ const navigation = {
     { name: "Por qué?", href: "#" },
     { name: "Quíenes somos", href: "#" },
   ],
-  mentors: [{ name: "Quieres ser mentor?", href: "#" }],
+  mentors: [{ name: "Quieres ser mentor?", href: "/mentores" }],
   social: [SOCIAL.linkedIn],
 };
 
