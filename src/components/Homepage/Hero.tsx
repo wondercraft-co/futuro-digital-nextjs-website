@@ -1,5 +1,6 @@
 import { FORM_URLS } from "@/lib/const";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -52,19 +53,19 @@ export default function Hero() {
               hagas perder el tiempo.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
+              <Link
                 href={FORM_URLS.STUDENTS}
                 target="_blank"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
               >
                 Inscribete ahora
-              </a>
-              <a
-                href="#"
-                className="text-sm font-semibold leading-6 text-white"
+              </Link>
+              <Link
+                href="/empresas"
+                className="text-sm font-semibold leading-2 text-white"
               >
-                Haz tu sitio web gratis <span aria-hidden="true">→</span>
-              </a>
+                Eres una empresa?<br/> Haz tu sitio web gratis <span aria-hidden="true">→</span>
+              </Link>
             </div>
           </div>
         </div>
