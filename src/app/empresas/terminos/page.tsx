@@ -4,10 +4,12 @@ import { Metadata } from "next/types";
 
 export const metadata: Metadata = {
   title: "Términos y Condiciones para Empresas | Futuro Digital",
-  description: "Conozca los términos y condiciones para empresas participantes en el programa Futuro Digital. Obtenga un sitio web gratuito mientras apoya la educación tecnológica.",
+  description:
+    "Conozca los términos y condiciones para empresas participantes en el programa Futuro Digital. Obtenga un sitio web gratuito mientras apoya la educación tecnológica.",
   openGraph: {
     title: "Términos y Condiciones para Empresas | Futuro Digital",
-    description: "Conozca los términos y condiciones para empresas participantes en Futuro Digital",
+    description:
+      "Conozca los términos y condiciones para empresas participantes en Futuro Digital",
     images: [
       {
         url: "/images/og-image-terminos-empresas.jpg",
@@ -20,11 +22,11 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Términos y Condiciones para Empresas | Futuro Digital",
-    description: "Conozca los términos y condiciones para empresas participantes en Futuro Digital",
+    description:
+      "Conozca los términos y condiciones para empresas participantes en Futuro Digital",
     images: ["/images/og-image-terminos-empresas.jpg"],
   },
 };
-
 
 const terms = [
   {
@@ -90,9 +92,10 @@ export default function Page() {
       <div className="bg-white px-6 py-32 lg:px-8">
         <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
           <div className="prose">
-            <span className="text-sm text-gray-500">Actualizado: 30 Sep, 2024 </span>
+            <span className="text-sm text-gray-500">
+              Actualizado: 30 Sep, 2024{" "}
+            </span>
             <h1 className="font-bold">Términos y Condiciones para empresas</h1>
-
 
             <p>
               Al participar en el programa Futuro Digital y permitir que
@@ -101,7 +104,7 @@ export default function Page() {
             </p>
 
             {terms.map((term) => (
-              <div>
+              <div key={term.title}>
                 <h3>{term.title}</h3>
                 <p>{term.description}</p>
               </div>

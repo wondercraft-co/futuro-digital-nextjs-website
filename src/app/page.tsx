@@ -1,4 +1,3 @@
-import Footer from "@/components/Footer";
 import Features from "@/components/Homepage/Features";
 import Hero from "@/components/Homepage/Hero";
 import Requirements from "@/components/Homepage/Requirements";
