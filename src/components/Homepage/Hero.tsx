@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FORM_URLS } from "@/lib/const";
+import { ComputerDesktopIcon } from "@heroicons/react/24/outline";
 
 export default function Hero() {
   return (
@@ -24,8 +25,9 @@ export default function Hero() {
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
           />
         </div>
-        <div className="mx-auto max-w-3xl py-32 sm:py-48">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+        <div className="mx-auto max-w-3xl py-32 sm:pt-40 sm:pb-44">
+          <ComputerDesktopIcon className="h-12 w-12 text-white mx-auto mb-6" />
+          {/* <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
               Announcing our next round of funding.{" "}
               <a href="#" className="font-semibold text-white">
@@ -33,7 +35,7 @@ export default function Hero() {
                 Read more <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
-          </div>
+          </div> */}
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
               Impulsa tu futuro en tecnología, no es un p*to bootcamp!

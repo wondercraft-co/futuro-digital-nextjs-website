@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const requirements = [
   {
@@ -63,13 +64,27 @@ export default function Requirements() {
             </div>
           </div>
           <div className="flex items-start justify-end lg:order-first">
-            <Image
-              alt="Product screenshot"
-              src="/pexels-kevin-ku-92347-577585.jpg"
-              width={2432}
-              height={1442}
-              className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-            />
+            <div>
+              <Image
+                alt="Computer"
+                // src="/pexels-kevin-ku-92347-577585.jpg"
+                src="/computer-illustration.png"
+                width={2432}
+                height={1442}
+                className="w-[28rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[47rem]"
+              />
+              <div className="text-xs text-gray-400 text-right mt-2 mr-2">
+                Designed by{" "}
+                <Link
+                  href="https://www.freepik.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline"
+                >
+                  Freepik
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
