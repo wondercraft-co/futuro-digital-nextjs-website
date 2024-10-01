@@ -26,7 +26,7 @@ export default function Header() {
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <Image
-              alt=""
+              alt="Logo Futuro Digital"
               height={32}
               width={157}
               src="/logo-futuro-digital.svg"
