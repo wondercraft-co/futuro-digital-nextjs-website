@@ -82,7 +82,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
           <p className="text-center text-xs leading-5 text-gray-500">
-            &copy; Un proyecto de{" "}
+            &copy; Un proyecto de responsabilidad social de{" "}
             <Link href="https://wondercraft.co" target="_blank" className="text-indigo-600">
               wondercraft.co
             </Link>
