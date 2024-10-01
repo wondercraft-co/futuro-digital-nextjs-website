@@ -38,7 +38,7 @@ export default function Hero() {
           </div> */}
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-              Impulsa tu futuro en tecnología, no es un p*to bootcamp!
+              Impulsa tu futuro en tecnología, no es un p*to bootcamp! y es gratis!
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-100">
               Brindamos a jóvenes la oportunidad de aprender a programar,
