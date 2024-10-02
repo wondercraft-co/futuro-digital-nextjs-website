@@ -8,7 +8,7 @@ export const metadata: Metadata = ogObjectFactory({
   description:
     "Conozca los términos y condiciones para empresas participantes en el programa Futuro Digital. Obtenga un sitio web gratuito mientras apoya la educación tecnológica.",
   ogImageTitle: "Términos y condiciones para empresas participantes.",
-  ogImageEyebrow: "Empresas | Términos y Condiciones",
+  ogImageEyebrow: "Empresas",
 });
 
 const terms = [

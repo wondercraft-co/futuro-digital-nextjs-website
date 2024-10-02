@@ -8,12 +8,16 @@ export const metadata: Metadata = {
   title: "Mentores | Futuro Digital",
   description: "Aun estamos trabajando en esta area del proyecto",
 };
+
 export default function Page() {
   return (
     <MainLayout>
       <Hero />
       <Image
-        src={ogImageUrl("Hello ther +!@#!%", "Empresas | Hellóo")}
+        src={ogImageUrl(
+          "Términos y condiciones para empresas participantes.",
+          "Empresas"
+        )}
         width={1200}
         height={630}
         alt=""
