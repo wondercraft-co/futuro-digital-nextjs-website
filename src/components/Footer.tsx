@@ -19,7 +19,7 @@ const navigation = {
     { name: "Por qué?", href: "#" },
     { name: "Quíenes somos", href: "#" },
   ],
-  mentors: [{ name: "Quieres ser mentor?", href: "/mentores" }],
+  // mentors: [{ name: "Quieres ser mentor?", href: "/mentores" }],
   social: [SOCIAL.linkedIn],
 };
 
@@ -94,7 +94,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
+              {/* <div>
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">
                   Mentores
                 </h3>
@@ -110,7 +110,7 @@ export default function Footer() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">
                   Sobre nosotros

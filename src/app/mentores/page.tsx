@@ -1,4 +1,5 @@
 import Hero from "@/components/Mentors/Hero";
+import Image from "next/image";
 import MainLayout from "@/components/MainLayout";
 import { Metadata } from "next/types";
 
@@ -10,6 +11,7 @@ export default function Page() {
   return (
     <MainLayout>
       <Hero />
+      <Image src="/og-bg.jpg" width={1200} height={630} alt="" />
     </MainLayout>
   );
 }
