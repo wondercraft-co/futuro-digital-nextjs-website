@@ -1,12 +1,15 @@
 import MainLayout from "@/components/MainLayout";
+import { ogObjectFactory } from "@/lib/og";
 
 import { Metadata } from "next/types";
 
-export const metadata: Metadata = {
-  title: "Términos y Condiciones para Empresas | Futuro Digital",
+export const metadata: Metadata = ogObjectFactory({
+  title: "Empresas | Términos y Condiciones | Futuro Digital",
   description:
     "Conozca los términos y condiciones para empresas participantes en el programa Futuro Digital. Obtenga un sitio web gratuito mientras apoya la educación tecnológica.",
-};
+  ogImageTitle: "Términos y condiciones para empresas participantes.",
+  ogImageEyebrow: "Empresas | Términos y Condiciones",
+});
 
 const terms = [
   {

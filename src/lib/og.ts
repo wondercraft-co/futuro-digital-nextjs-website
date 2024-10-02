@@ -1,7 +1,10 @@
 import { Metadata } from "next/types";
 
-export const imageUrl = (title: string, eyebrow?: string) => {
-  return `https://futurodigital.wondercraft.co/api/og?title=${title}&eyebrow=${eyebrow}`;
+export const ogImageUrl = (title: string, eyebrow?: string) => {
+  const safeTitle = encodeURIComponent(title);
+  const safeEyebrow = eyebrow ? encodeURIComponent(eyebrow) : "";
+
+  return `https://futurodigital.wondercraft.co/api/og?title=${safeTitle}&eyebrow=${safeEyebrow}`;
 };
 
 type TogObjectFactory = {
@@ -25,7 +28,7 @@ export const ogObjectFactory = ({
       description,
       images: [
         {
-          url: imageUrl(ogImageTitle, ogImageEyebrow),
+          url: ogImageUrl(ogImageTitle, ogImageEyebrow),
           width: 1200,
           height: 630,
           alt: title,
@@ -36,7 +39,7 @@ export const ogObjectFactory = ({
       card: "summary_large_image",
       title,
       description,
-      images: [imageUrl(ogImageTitle, ogImageEyebrow)],
+      images: [ogImageUrl(ogImageTitle, ogImageEyebrow)],
     },
   };
 };

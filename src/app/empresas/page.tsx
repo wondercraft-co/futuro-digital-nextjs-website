@@ -10,7 +10,8 @@ export const metadata: Metadata = ogObjectFactory({
   title: "Empresas | Futuro Digital",
   description:
     "Participe en Futuro Digital y obtenga un sitio web gratuito desarrollado por estudiantes talentosos. Impulse su negocio mientras apoya la educación tecnológica.",
-  ogImageTitle: "Haz crecer tu negocio y forma el futuro talento tech",
+  ogImageTitle:
+    "Haz tu sitio web gratis y ayúdanos a formar el futuro del talento tech.",
   ogImageEyebrow: "Empresas",
 });
 
