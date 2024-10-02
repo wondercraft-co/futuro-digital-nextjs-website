@@ -40,7 +40,7 @@ export default function Footer() {
               // className="h-7"
             />
             <p className="text-sm leading-6 text-gray-600">
-              Impulsando a jóvenes para transformar su futuro con tecnología.
+              Impulsando a jóvenes a transformar su futuro con tecnología.
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (

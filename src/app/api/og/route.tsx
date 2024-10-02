@@ -28,7 +28,7 @@ export async function GET(request: Request) {
               lineHeight: "48px",
             }}
           >
-            Impulsando a jóvenes para transformar su futuro con tecnología
+            {title}
           </h1>
         ) : null}
       </div>
