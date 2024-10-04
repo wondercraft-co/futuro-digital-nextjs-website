@@ -16,8 +16,8 @@ const navigation = {
     { name: "Inscríbe tu empresa", href: FORM_URLS.BUSINESS },
   ],
   aboutus: [
-    { name: "¿Por qué?", href: "/nosotros" },
-    { name: "🏗️ Quíenes somos", href: "#" },
+    { name: "¿Por qué?", href: "/nosotros/por-que" },
+    { name: "🏗️ Quíenes somos", href: "/nosotros" },
   ],
   // mentors: [{ name: "Quieres ser mentor?", href: "/mentores" }],
   social: [SOCIAL.linkedIn],
