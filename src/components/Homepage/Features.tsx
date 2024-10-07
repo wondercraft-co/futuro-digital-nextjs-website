@@ -20,12 +20,6 @@ const features = [
     icon: CheckBadgeIcon,
   },
   {
-    name: "No es un bootcamp",
-    description:
-      "No te prometemos la luna, ni ser tu propio jefe. Todo lo que logres sera por tu propio esfuerzo, nosotros estamos para facilitarte el camino, para guiarte en el proceso, para mostrarte como funciona la industria.",
-    icon: CheckBadgeIcon,
-  },
-  {
     name: "Ayuda para conseguir un computador",
     description:
       "Si no tienes un computador adecuado para programar, te ayudamos a conseguir uno. Trabajamos con organizaciones y donantes para proporcionar equipos a estudiantes comprometidos que lo necesiten.",
