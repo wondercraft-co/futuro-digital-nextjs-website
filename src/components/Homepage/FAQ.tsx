@@ -14,7 +14,7 @@ const faqs = [
   {
     question: "¿Cómo puedo inscribirme como estudiante?",
     answer:
-      "Para inscribirte, debes cumplir con los requisitos de elegibilidad (tener entre 16 y 25 años, residir en Colombia, y tener acceso a un computador). Una vez verifiques que cumples con los requisitos, puedes completar el formulario de inscripción en nuestro sitio web. Nos pondremos en contacto contigo para confirmar tu participación.",
+      "Para inscribirte, debes cumplir con los requisitos de elegibilidad (tener entre 16 y 25 años, residir en Colombia). Una vez verifiques que cumples con los requisitos, puedes completar el formulario de inscripción en nuestro sitio web. Nos pondremos en contacto contigo para confirmar tu participación.",
   },
   {
     question: "¿Es solo para programación?",
