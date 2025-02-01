@@ -43,8 +43,8 @@ export default function AboutJuniorAgency() {
                 <Image
                   width={1000}
                   height={1000}
-                  alt="Trabajo en equipo"
-                  src="https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?&auto=format&fit=crop&crop=center&w=560&h=560&q=90"
+                  alt="Jóvenes latinos colaborando en código"
+                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?&auto=format&fit=crop&crop=center&w=560&h=560&q=90"
                   className="block size-full object-cover"
                 />
               </div>
@@ -52,32 +52,32 @@ export default function AboutJuniorAgency() {
                 <Image
                   width={1000}
                   height={1000}
-                  alt="Desarrollo de software"
-                  src="https://images.unsplash.com/photo-1557804506-669a67965ba0?&auto=format&fit=crop&crop=left&w=560&h=560&q=90"
+                  alt="Grupo de estudiantes colaborando en proyectos de programación"
+                  src="https://images.unsplash.com/photo-1531482615713-2afd69097998?&auto=format&fit=crop&crop=faces&w=560&h=560&q=90"
                   className="block size-full object-cover"
                 />
               </div>
-              <div className="aspect-square overflow-hidden rounded-xl shadow-xl outline outline-1 -outline-offset-1 outline-black/10">
+              <div className="hidden aspect-square overflow-hidden rounded-xl shadow-xl outline outline-1 -outline-offset-1 outline-black/10">
                 <Image
                   width={1000}
                   height={1000}
-                  alt="Programación en equipo"
-                  src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?&auto=format&fit=crop&crop=left&w=560&h=560&q=90"
+                  alt="Equipo diverso trabajando en tecnología"
+                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?&auto=format&fit=crop&crop=faces&w=560&h=560&q=90"
                   className="block size-full object-cover"
                 />
               </div>
-              <div className="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline outline-1 -outline-offset-1 outline-black/10 lg:-mt-40">
+              <div className="hidden -mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline outline-1 -outline-offset-1 outline-black/10 lg:-mt-40">
                 <Image
                   width={1000}
                   height={1000}
-                  alt="Trabajo en un proyecto real"
-                  src="https://images.unsplash.com/photo-1598257006458-087169a1f08d?&auto=format&fit=crop&crop=center&w=560&h=560&q=90"
+                  alt="Joven latino revisando código"
+                  src="https://images.unsplash.com/photo-1571844307880-751c6d86f3f3?&auto=format&fit=crop&crop=faces&w=560&h=560&q=90"
                   className="block size-full object-cover"
                 />
               </div>
             </div>
           </div>
-          <div className="max-lg:mt-16 lg:col-span-1">
+          <div className="max-lg:mt-16 lg:col-span-1 hidden">
             <p className="text-base/7 font-semibold text-gray-500">
               Impacto del programa
             </p>
