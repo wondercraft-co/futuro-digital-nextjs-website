@@ -3,7 +3,6 @@ import Hero from "@/components/Agency/Hero";
 import About from "@/components/Agency/About";
 import Offer from "@/components/Agency/Offer";
 import HowWorks from "@/components/Agency/HowWorks";
-import FAQ from "@/components/Agency/FAQ";
 import { ogObjectFactory } from "@/lib/og";
 import { Metadata } from "next/types";
 
@@ -23,7 +22,6 @@ export default function Page() {
       <About />
       <Offer />
       <HowWorks />
-      <FAQ />
     </MainLayout>
   );
 }

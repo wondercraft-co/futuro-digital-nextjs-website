@@ -8,7 +8,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navigation = [
-  { name: "Estudiantes", href: "/" },
+  { name: "Junior Agency", href: "/" },
+  { name: "Estudiar desde cero", href: "/desde-cero" },
   { name: "Empresas", href: "/empresas" },
 ];
 
