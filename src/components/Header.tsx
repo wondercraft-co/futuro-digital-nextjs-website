@@ -18,7 +18,7 @@ export default function Header() {
 
   return (
     <>
-      <Banner />
+      {/* <Banner /> */}
       <header className="sticky inset-x-0 top-0 z-50 bg-white border-b border-gray-100">
         <nav
           aria-label="Global"
